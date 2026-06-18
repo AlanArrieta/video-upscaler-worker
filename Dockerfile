@@ -26,3 +26,4 @@ RUN mkdir -p /models && \
 
 COPY handler.py /handler.py
 CMD ["python", "-u", "/handler.py"]
+# force rebuild
